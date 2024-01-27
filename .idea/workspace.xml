@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a3bbc0d-f6e7-40f6-be99-a68640f78c4b" name="Changes" comment="commit">
-      <change afterPath="$PROJECT_DIR$/src/Array/Factorial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Array/Fibonacci.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/String/LenghtLast_word.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/String/RemoveDup1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/String/Remove_Duplicaates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Two_Array/TransposeMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/Missing_Number.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Two_Array/Set_Matrix_Zero.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,9 +69,11 @@
     "Application.IsAnagram.executor": "Run",
     "Application.LenghtLast_word.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.Missing_Number.executor": "Run",
     "Application.RemoveDup1.executor": "Run",
     "Application.Remove_Duplicaates.executor": "Run",
     "Application.Reverse_word.executor": "Run",
+    "Application.Set_Matrix_Zero.executor": "Run",
     "Application.TransposeMatrix.executor": "Run",
     "Application.ValidPalindrome.executor": "Run",
     "Application.Validparanthesis.executor": "Run",
@@ -90,7 +88,7 @@
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TransposeMatrix">
+  <component name="RunManager" selected="Application.Missing_Number">
     <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Array.Factorial" />
       <module name="javainterview" />
@@ -117,8 +115,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.Fibonacci" />
+    <configuration name="Missing_Number" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array.Missing_Number" />
       <module name="javainterview" />
       <extension name="coverage">
         <pattern>
@@ -130,12 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LenghtLast_word" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="String.LenghtLast_word" />
+    <configuration name="Set_Matrix_Zero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Two_Array.Set_Matrix_Zero" />
       <module name="javainterview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="String.*" />
+          <option name="PATTERN" value="Two_Array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Missing_Number" />
+        <item itemvalue="Application.Set_Matrix_Zero" />
         <item itemvalue="Application.TransposeMatrix" />
         <item itemvalue="Application.Factorial_Array" />
         <item itemvalue="Application.Factorial" />
-        <item itemvalue="Application.Fibonacci" />
-        <item itemvalue="Application.LenghtLast_word" />
       </list>
     </recent_temporary>
   </component>
@@ -206,7 +204,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706008548540</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="commit">
+      <option name="closed" value="true" />
+      <created>1706372742054</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1706372742054</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -235,6 +241,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Two_Array/Set_Matrix_Zero.java</url>
+          <line>41</line>
+          <properties class="Two_Array.Set_Matrix_Zero" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
