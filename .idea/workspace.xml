@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a3bbc0d-f6e7-40f6-be99-a68640f78c4b" name="Changes" comment="commit">
-      <change afterPath="$PROJECT_DIR$/src/Array/FreqOfEachEle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/String/ReverseLetter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StringBuilder_Buffer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SortingAlgorithms/Bubblesort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/String/FaultyKeyboard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/String/FirstOccIndexString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/String/LengthOfLastWord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/String/String_2_rev.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/String/Reverse_word.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String/Reverse_word.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,18 +66,23 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.ArmStrong_Number.executor": "Run",
+    "Application.Bubblesort.executor": "Run",
     "Application.Distance_TwoArray.executor": "Run",
     "Application.Duplicat_element.executor": "Run",
     "Application.Factorial.executor": "Run",
     "Application.Factorial_Array.executor": "Run",
+    "Application.FaultyKeyboard.executor": "Run",
     "Application.Fibonacci.executor": "Run",
+    "Application.FirstOccIndexString.executor": "Run",
     "Application.FreqOfEachEle.executor": "Run",
     "Application.IsAnagram.executor": "Run",
     "Application.LenghtLast_word.executor": "Run",
+    "Application.LengthOfLastWord.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Missing_Number.executor": "Run",
     "Application.RemoveDup1.executor": "Run",
     "Application.Remove_Duplicaates.executor": "Run",
+    "Application.ReverseLetter.executor": "Run",
     "Application.Reverse_word.executor": "Run",
     "Application.Set_Matrix_Zero.executor": "Run",
     "Application.StringBuilder_Buffer.executor": "Run",
@@ -93,13 +101,13 @@
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ReverseLetter">
-    <configuration name="ArmStrong_Number" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.ArmStrong_Number" />
+  <component name="RunManager" selected="Application.Bubblesort">
+    <configuration name="Bubblesort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SortingAlgorithms.Bubblesort" />
       <module name="javainterview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Array.*" />
+          <option name="PATTERN" value="SortingAlgorithms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,21 +115,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FreqOfEachEle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.FreqOfEachEle" />
-      <module name="javainterview" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReverseLetter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="String.ReverseLetter" />
+    <configuration name="FaultyKeyboard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="String.FaultyKeyboard" />
       <module name="javainterview" />
       <extension name="coverage">
         <pattern>
@@ -133,19 +128,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringBuilder_Buffer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StringBuilder_Buffer" />
+    <configuration name="FirstOccIndexString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="String.FirstOccIndexString" />
       <module name="javainterview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="String.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="misMatchArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.misMatchArray" />
+    <configuration name="LengthOfLastWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="String.LengthOfLastWord" />
       <module name="javainterview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Array.*" />
+          <option name="PATTERN" value="String.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Reverse_word" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="String.Reverse_word" />
+      <module name="javainterview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="String.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ReverseLetter" />
-        <item itemvalue="Application.FreqOfEachEle" />
-        <item itemvalue="Application.StringBuilder_Buffer" />
-        <item itemvalue="Application.misMatchArray" />
-        <item itemvalue="Application.ArmStrong_Number" />
+        <item itemvalue="Application.Bubblesort" />
+        <item itemvalue="Application.Reverse_word" />
+        <item itemvalue="Application.FirstOccIndexString" />
+        <item itemvalue="Application.LengthOfLastWord" />
+        <item itemvalue="Application.FaultyKeyboard" />
       </list>
     </recent_temporary>
   </component>
@@ -235,7 +249,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706455148332</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="commit">
+      <option name="closed" value="true" />
+      <created>1706511214229</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1706511214229</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
