@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a3bbc0d-f6e7-40f6-be99-a68640f78c4b" name="Changes" comment="commit">
-      <change afterPath="$PROJECT_DIR$/src/SortingAlgorithms/Bubblesort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/String/FaultyKeyboard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/String/FirstOccIndexString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/String/LengthOfLastWord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/String/String_2_rev.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/MonotonicArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SortingAlgorithms/SelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/String/FirstUniCharacter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/String/RevVowel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/String/Reverse_word.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String/Reverse_word.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SortingAlgorithms/Bubblesort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SortingAlgorithms/Bubblesort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,45 +62,48 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.ArmStrong_Number.executor": "Run",
-    "Application.Bubblesort.executor": "Run",
-    "Application.Distance_TwoArray.executor": "Run",
-    "Application.Duplicat_element.executor": "Run",
-    "Application.Factorial.executor": "Run",
-    "Application.Factorial_Array.executor": "Run",
-    "Application.FaultyKeyboard.executor": "Run",
-    "Application.Fibonacci.executor": "Run",
-    "Application.FirstOccIndexString.executor": "Run",
-    "Application.FreqOfEachEle.executor": "Run",
-    "Application.IsAnagram.executor": "Run",
-    "Application.LenghtLast_word.executor": "Run",
-    "Application.LengthOfLastWord.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.Missing_Number.executor": "Run",
-    "Application.RemoveDup1.executor": "Run",
-    "Application.Remove_Duplicaates.executor": "Run",
-    "Application.ReverseLetter.executor": "Run",
-    "Application.Reverse_word.executor": "Run",
-    "Application.Set_Matrix_Zero.executor": "Run",
-    "Application.StringBuilder_Buffer.executor": "Run",
-    "Application.TransposeMatrix.executor": "Run",
-    "Application.ValidPalindrome.executor": "Run",
-    "Application.Validparanthesis.executor": "Run",
-    "Application.misMatchArray.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "admin",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Users/srika/IdeaProjects/javainterview/src/Main.java",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ArmStrong_Number.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Bubblesort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Distance_TwoArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Duplicat_element.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Factorial.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Factorial_Array.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FaultyKeyboard.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Fibonacci.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FirstOccIndexString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FirstUniCharacter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FreqOfEachEle.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IsAnagram.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LenghtLast_word.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LengthOfLastWord.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Missing_Number.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MonotonicArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RemoveDup1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Remove_Duplicaates.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseLetter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Reverse_word.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SelectionSort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Set_Matrix_Zero.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringBuilder_Buffer.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TransposeMatrix.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ValidPalindrome.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Validparanthesis.executor&quot;: &quot;Run&quot;,
+    &quot;Application.misMatchArray.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;admin&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/srika/IdeaProjects/javainterview/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.Bubblesort">
+}</component>
+  <component name="RunManager" selected="Application.RevVowel">
     <configuration name="Bubblesort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SortingAlgorithms.Bubblesort" />
       <module name="javainterview" />
@@ -115,8 +117,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FaultyKeyboard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="String.FaultyKeyboard" />
+    <configuration name="FirstUniCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="String.FirstUniCharacter" />
       <module name="javainterview" />
       <extension name="coverage">
         <pattern>
@@ -128,8 +130,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstOccIndexString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="String.FirstOccIndexString" />
+    <configuration name="MonotonicArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array.MonotonicArray" />
+      <module name="javainterview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RevVowel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="String.RevVowel" />
       <module name="javainterview" />
       <extension name="coverage">
         <pattern>
@@ -141,25 +156,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LengthOfLastWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="String.LengthOfLastWord" />
+    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SortingAlgorithms.SelectionSort" />
       <module name="javainterview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="String.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Reverse_word" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="String.Reverse_word" />
-      <module name="javainterview" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="String.*" />
+          <option name="PATTERN" value="SortingAlgorithms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RevVowel" />
+        <item itemvalue="Application.FirstUniCharacter" />
+        <item itemvalue="Application.MonotonicArray" />
+        <item itemvalue="Application.SelectionSort" />
         <item itemvalue="Application.Bubblesort" />
-        <item itemvalue="Application.Reverse_word" />
-        <item itemvalue="Application.FirstOccIndexString" />
-        <item itemvalue="Application.LengthOfLastWord" />
-        <item itemvalue="Application.FaultyKeyboard" />
       </list>
     </recent_temporary>
   </component>
@@ -257,7 +259,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706511214229</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="commit">
+      <option name="closed" value="true" />
+      <created>1706709176413</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1706709176413</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -295,6 +305,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/SortingAlgorithms/SelectionSort.java</url>
+          <line>21</line>
+          <properties class="SortingAlgorithms.SelectionSort" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
