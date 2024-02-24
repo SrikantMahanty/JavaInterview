@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a3bbc0d-f6e7-40f6-be99-a68640f78c4b" name="Changes" comment="commit">
-      <change afterPath="$PROJECT_DIR$/src/String/ConsecutiveCharacter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/ONEd_To_2d.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,6 +78,7 @@
     "Application.Main.executor": "Run",
     "Application.Missing_Number.executor": "Run",
     "Application.MonotonicArray.executor": "Run",
+    "Application.ONEd_To_2d.executor": "Run",
     "Application.RemoveDup1.executor": "Run",
     "Application.Remove_Duplicaates.executor": "Run",
     "Application.RevVowel.executor": "Run",
@@ -101,7 +102,7 @@
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ConsecutiveCharacter">
+  <component name="RunManager" selected="Application.Power_of_2">
     <configuration name="ConsecutiveCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="String.ConsecutiveCharacter" />
       <module name="javainterview" />
@@ -128,8 +129,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MonotonicArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.MonotonicArray" />
+    <configuration name="ONEd_To_2d" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array.ONEd_To_2d" />
+      <module name="javainterview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Power_of_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array.Power_of_2" />
       <module name="javainterview" />
       <extension name="coverage">
         <pattern>
@@ -154,26 +168,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SortingAlgorithms.SelectionSort" />
-      <module name="javainterview" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SortingAlgorithms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Power_of_2" />
+        <item itemvalue="Application.ONEd_To_2d" />
         <item itemvalue="Application.ConsecutiveCharacter" />
         <item itemvalue="Application.RevVowel" />
         <item itemvalue="Application.FirstUniCharacter" />
-        <item itemvalue="Application.MonotonicArray" />
-        <item itemvalue="Application.SelectionSort" />
       </list>
     </recent_temporary>
   </component>
