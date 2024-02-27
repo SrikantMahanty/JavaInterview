@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a3bbc0d-f6e7-40f6-be99-a68640f78c4b" name="Changes" comment="commit">
-      <change afterPath="$PROJECT_DIR$/src/Array/ONEd_To_2d.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/String/IsSubsequence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,12 +73,14 @@
     "Application.FirstUniCharacter.executor": "Run",
     "Application.FreqOfEachEle.executor": "Run",
     "Application.IsAnagram.executor": "Run",
+    "Application.IsSubsequence.executor": "Run",
     "Application.LenghtLast_word.executor": "Run",
     "Application.LengthOfLastWord.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Missing_Number.executor": "Run",
     "Application.MonotonicArray.executor": "Run",
     "Application.ONEd_To_2d.executor": "Run",
+    "Application.Power_of_2.executor": "Run",
     "Application.RemoveDup1.executor": "Run",
     "Application.Remove_Duplicaates.executor": "Run",
     "Application.RevVowel.executor": "Run",
@@ -102,7 +104,7 @@
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Power_of_2">
+  <component name="RunManager" selected="Application.IsSubsequence">
     <configuration name="ConsecutiveCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="String.ConsecutiveCharacter" />
       <module name="javainterview" />
@@ -116,8 +118,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstUniCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="String.FirstUniCharacter" />
+    <configuration name="IsSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="String.IsSubsequence" />
       <module name="javainterview" />
       <extension name="coverage">
         <pattern>
@@ -170,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IsSubsequence" />
         <item itemvalue="Application.Power_of_2" />
         <item itemvalue="Application.ONEd_To_2d" />
         <item itemvalue="Application.ConsecutiveCharacter" />
         <item itemvalue="Application.RevVowel" />
-        <item itemvalue="Application.FirstUniCharacter" />
       </list>
     </recent_temporary>
   </component>
@@ -274,7 +276,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707663242959</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="commit">
+      <option name="closed" value="true" />
+      <created>1708796229093</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1708796229093</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
