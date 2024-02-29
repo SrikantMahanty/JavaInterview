@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a3bbc0d-f6e7-40f6-be99-a68640f78c4b" name="Changes" comment="commit">
-      <change afterPath="$PROJECT_DIR$/src/String/IsSubsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/Second_largest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Patterns/p1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Patterns/p2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Patterns/p3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Patterns/printnumberreverse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -86,6 +90,7 @@
     "Application.RevVowel.executor": "Run",
     "Application.ReverseLetter.executor": "Run",
     "Application.Reverse_word.executor": "Run",
+    "Application.Second_largest.executor": "Run",
     "Application.SelectionSort.executor": "Run",
     "Application.Set_Matrix_Zero.executor": "Run",
     "Application.StringBuilder_Buffer.executor": "Run",
@@ -93,6 +98,10 @@
     "Application.ValidPalindrome.executor": "Run",
     "Application.Validparanthesis.executor": "Run",
     "Application.misMatchArray.executor": "Run",
+    "Application.p1.executor": "Run",
+    "Application.p2.executor": "Run",
+    "Application.p3.executor": "Run",
+    "Application.printnumberreverse.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "admin",
@@ -104,35 +113,9 @@
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.IsSubsequence">
-    <configuration name="ConsecutiveCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="String.ConsecutiveCharacter" />
-      <module name="javainterview" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="String.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IsSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="String.IsSubsequence" />
-      <module name="javainterview" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="String.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ONEd_To_2d" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.ONEd_To_2d" />
+  <component name="RunManager" selected="Application.p3">
+    <configuration name="Second_largest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array.Second_largest" />
       <module name="javainterview" />
       <extension name="coverage">
         <pattern>
@@ -144,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Power_of_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.Power_of_2" />
+    <configuration name="p1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Patterns.p1" />
       <module name="javainterview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Array.*" />
+          <option name="PATTERN" value="Patterns.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,12 +140,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RevVowel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="String.RevVowel" />
+    <configuration name="p2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Patterns.p2" />
       <module name="javainterview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="String.*" />
+          <option name="PATTERN" value="Patterns.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="p3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Patterns.p3" />
+      <module name="javainterview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Patterns.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="printnumberreverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Patterns.printnumberreverse" />
+      <module name="javainterview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Patterns.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -172,11 +181,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.IsSubsequence" />
-        <item itemvalue="Application.Power_of_2" />
-        <item itemvalue="Application.ONEd_To_2d" />
-        <item itemvalue="Application.ConsecutiveCharacter" />
-        <item itemvalue="Application.RevVowel" />
+        <item itemvalue="Application.p3" />
+        <item itemvalue="Application.printnumberreverse" />
+        <item itemvalue="Application.p2" />
+        <item itemvalue="Application.p1" />
+        <item itemvalue="Application.Second_largest" />
       </list>
     </recent_temporary>
   </component>
@@ -284,7 +293,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708796229093</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="commit">
+      <option name="closed" value="true" />
+      <created>1709044272762</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1709044272762</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
