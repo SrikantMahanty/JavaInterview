@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a3bbc0d-f6e7-40f6-be99-a68640f78c4b" name="Changes" comment="commit">
-      <change afterPath="$PROJECT_DIR$/src/Array/Second_largest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Patterns/p1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Patterns/p2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Patterns/p3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Patterns/printnumberreverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArrayList/p1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArrayList/p2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Patterns/p4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Patterns/p5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -101,6 +100,8 @@
     "Application.p1.executor": "Run",
     "Application.p2.executor": "Run",
     "Application.p3.executor": "Run",
+    "Application.p4.executor": "Run",
+    "Application.p5.executor": "Run",
     "Application.printnumberreverse.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -113,26 +114,13 @@
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.p3">
-    <configuration name="Second_largest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.Second_largest" />
-      <module name="javainterview" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.p2">
     <configuration name="p1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Patterns.p1" />
+      <option name="MAIN_CLASS_NAME" value="ArrayList.p1" />
       <module name="javainterview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Patterns.*" />
+          <option name="PATTERN" value="ArrayList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,11 +129,11 @@
       </method>
     </configuration>
     <configuration name="p2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Patterns.p2" />
+      <option name="MAIN_CLASS_NAME" value="ArrayList.p2" />
       <module name="javainterview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Patterns.*" />
+          <option name="PATTERN" value="ArrayList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -166,8 +154,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="printnumberreverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Patterns.printnumberreverse" />
+    <configuration name="p4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Patterns.p4" />
+      <module name="javainterview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Patterns.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="p5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Patterns.p5" />
       <module name="javainterview" />
       <extension name="coverage">
         <pattern>
@@ -181,11 +182,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.p3" />
-        <item itemvalue="Application.printnumberreverse" />
         <item itemvalue="Application.p2" />
         <item itemvalue="Application.p1" />
-        <item itemvalue="Application.Second_largest" />
+        <item itemvalue="Application.p5" />
+        <item itemvalue="Application.p4" />
+        <item itemvalue="Application.p3" />
       </list>
     </recent_temporary>
   </component>
@@ -301,7 +302,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709044272762</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="commit">
+      <option name="closed" value="true" />
+      <created>1709227249638</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1709227249638</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
